@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# :moneybag: PayLoc - App de pagamentos locais* :rocket: (:warning: em desenvolvimento)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Realize pagamentos instantâneos com o que há de mais moderno no mercado brasileiro. Transfira valores para sua carteira digital **PayLoc** e embarque no mundo dos pagamentos instantâneos.
 
-## Available Scripts
+## A ideia
+Desenvolver uma aplicação do início ao fim, desde a concepção, prototipação, front-end até o back-end, utilizando as tecnologias mais recentes do mercado JavaScript (:heart:) (React JS, Ant Design, Node JS, Express).
 
-In the project directory, you can run:
+## Tecnologias utilizadas (Até o momento):
+Há outras tecnologias que utilizei, mas essas são as principais. — Se quiser pode dar uma olhada no ``package.json``. Veja a pequena lista:
+- :heavy_check_mark: React JS (Incluindo os Hooks mais recentes da Lib);
+- :heavy_check_mark: Ant Design;
+- :heavy_check_mark: Styled Components :nail_care:
 
-### `yarn start`
+## Progresso atual:
+Veja onde estou no desenvolvimento dessa aplicação:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prototipação no Figma (em andamento):
+- :heavy_check_mark: Início;
+- :heavy_check_mark: Transferências via PIX;
+- (&nbsp;&nbsp;) Saldo e movimentações;
+- (&nbsp;&nbsp;) Informações Pessoais;
+- (&nbsp;&nbsp;) Configurações;
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+### Desenvolvimento das telas:
+- :heavy_check_mark: Início;
+- (&nbsp;&nbsp;) Transferências via PIX;
+- (&nbsp;&nbsp;) Saldo e movimentações;
+- (&nbsp;&nbsp;) Informações Pessoais;
+- (&nbsp;&nbsp;) Configurações.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+## Se quiser testar, fique a vontade:
+1 - Instale as dependências:
 
-### `yarn build`
+```
+$ npm i // Ou npm install ou ainda yarn add
+```
+2 - Inicie o servidor da aplicação:
+```
+$ npm run start
+```
+3 - Está lá:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Rodando Liso](https://i.imgur.com/MFa8nDX.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###### *A aplicação é fundamentalmente para expor as tecnologias que estou aprendendo e minha forma de desenvolver, além de ser também, um pouco das habilidads que desenvolvi em meu tempo livre.
