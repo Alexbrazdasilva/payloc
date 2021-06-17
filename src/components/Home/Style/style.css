@@ -1,0 +1,65 @@
+/* Container  */
+/* spacer  */
+/* X  */
+.px-1 {
+	padding: 0 .5em;
+}
+.px-2 {
+	padding: 0 1em;
+}
+.px-3 {
+	padding: 0 1.5em;
+}
+/* Y  */
+.py-1 {
+	padding: .5em 0;
+}
+.py-2 {
+	padding: 1em 0;
+}
+.py-3 {
+	padding: 1.5em 0;
+}
+/* X  */
+.mx-1 {
+	margin: 0 .5em;
+}
+.mx-2 {
+	margin: 0 1em;
+}
+.mx-3 {
+	margin: 0 1.5em;
+}
+/* Background  */
+.bg-primary {
+  background-color: var(--color-primary-asset-1);
+  height: 100vh;
+}
+/* Colors  */
+.text-primary {
+	color: var(--color-primary) !important;
+}
+.text-white {
+	color: #fff !important;
+}
+/* NavBar  */
+.nav {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	align-self: flex-end;
+	display: inline-flex;
+	padding: 1em 0;
+	background-color: var(--color-primary-asset-1);
+	overflow-x: scroll;
+	width: 100%;
+	max-width: 100%;
+}
+.nav-item-content {
+	width: 120px;
+	height: 120px;
+	margin: 0 1em 0 0;
+}
+.nav-item-content:first-child {
+	margin-left: 1em;
+}
