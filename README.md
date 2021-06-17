@@ -45,4 +45,4 @@ $ npm run start
 ![Rodando Liso](https://i.imgur.com/MFa8nDX.png)
 
 
-###### *A aplicação é fundamentalmente para expor as tecnologias que estou aprendendo e minha forma de desenvolver, além de ser também, um pouco das habilidads que desenvolvi em meu tempo livre.
+###### *A aplicação é fundamentalmente para expor as tecnologias que estou aprendendo e minha forma de desenvolver, além de ser também, um pouco das habilidades que desenvolvi em meu tempo livre.
