@@ -1,10 +1,10 @@
-/* eslint-disable react/prop-types */
 import React from "react";
 import ScrollContainer from "react-indiana-drag-scroll";
 import { Link } from "react-router-dom";
 import Icon from "@mdi/react";
 import { mdiRhombusSplit, mdiWallet, mdiAccount, mdiCog } from "@mdi/js";
 import UILargeButton from "./../UI/UILargeButton";
+import { string } from 'prop-types';
 
 const NavBar = ({ className }) => (
   <React.Fragment>
@@ -36,4 +36,7 @@ const NavBar = ({ className }) => (
     </ScrollContainer>
   </React.Fragment>
 );
+NavBar.propTypes = {
+  className: string
+}
 export default NavBar;
